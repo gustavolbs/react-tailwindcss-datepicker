@@ -1,5 +1,5 @@
 {
-    "name": "react-tailwindcss-datepicker",
+    "name": "gustavolbs-react-tailwindcss-datepicker",
     "version": "1.6.6",
     "description": "A modern React Datepicker using Tailwind CSS 3",
     "main": "dist/index.cjs.js",
@@ -7,6 +7,9 @@
     "types": "dist/index.d.ts",
     "author": "onesine",
     "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
     "scripts": {
         "watch": "rollup -c -w",
         "clean": "rm -rf dist",
